@@ -1,0 +1,35 @@
+category,sub_category,returned_flag,sum
+Furniture,Chairs,0,826834.58
+Furniture,Tables,0,462232.59
+Furniture,Bookcases,0,252568.58
+Furniture,Furnishings,0,228093.24
+Furniture,Chairs,1,67301.59
+Furniture,Tables,1,40035.91
+Furniture,Furnishings,1,24252.01
+Furniture,Bookcases,1,17541.79
+Office Supplies,Storage,0,564138.72
+Office Supplies,Binders,0,525519.56
+Office Supplies,Appliances,0,256096.70
+Office Supplies,Paper,0,196847.60
+Office Supplies,Supplies,0,96354.50
+Office Supplies,Art,0,63541.93
+Office Supplies,Envelopes,0,38330.52
+Office Supplies,Labels,0,27976.61
+Office Supplies,Fasteners,0,17866.81
+Office Supplies,Storage,1,39550.11
+Office Supplies,Binders,1,28822.59
+Office Supplies,Appliances,1,25371.99
+Office Supplies,Paper,1,19713.84
+Office Supplies,Supplies,1,7625.06
+Office Supplies,Art,1,3678.05
+Office Supplies,Labels,1,2117.49
+Office Supplies,Envelopes,1,1822.09
+Office Supplies,Fasteners,1,478.02
+Technology,Phones,0,753218.13
+Technology,Accessories,0,461948.89
+Technology,Copiers,0,362706.97
+Technology,Machines,0,279386.69
+Technology,Phones,1,75898.49
+Technology,Copiers,1,51359.64
+Technology,Accessories,1,38665.53
+Technology,Machines,1,22113.97
