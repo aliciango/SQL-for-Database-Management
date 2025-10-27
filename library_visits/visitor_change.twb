@@ -1,0 +1,662 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0818.1050                               -->
+<workbook original-version='18.1' source-build='2025.2.2 (20252.25.0818.1050)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='data-1761543493794' inline='true' name='federated.1pqzj470rdvzw318tf3qu1crrn54' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='data-1761543493794' name='textscan.12s8qel1yy9xpt13hl7vu0ltvrci'>
+            <connection class='textscan' directory='C:/Users/jingn/Downloads' filename='data-1761543493794.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.12s8qel1yy9xpt13hl7vu0ltvrci' name='data-1761543493794.csv' table='[data-1761543493794#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_SG' separator=','>
+            <column datatype='string' name='stabr' ordinal='0' />
+            <column datatype='integer' name='visits_2018' ordinal='1' />
+            <column datatype='integer' name='visits_2017' ordinal='2' />
+            <column datatype='integer' name='visits_2016' ordinal='3' />
+            <column datatype='real' name='visits_pct_change_1718' ordinal='4' />
+            <column datatype='real' name='visits_pct_change_1617' ordinal='5' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[data-1761543493794.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_SG&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stabr</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stabr]</local-name>
+            <parent-name>[data-1761543493794.csv]</parent-name>
+            <remote-alias>stabr</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[data-1761543493794.csv_3505F0266BDE4B7A8FA8B9FB209C0331]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>visits_2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[visits_2018]</local-name>
+            <parent-name>[data-1761543493794.csv]</parent-name>
+            <remote-alias>visits_2018</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data-1761543493794.csv_3505F0266BDE4B7A8FA8B9FB209C0331]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>visits_2017</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[visits_2017]</local-name>
+            <parent-name>[data-1761543493794.csv]</parent-name>
+            <remote-alias>visits_2017</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data-1761543493794.csv_3505F0266BDE4B7A8FA8B9FB209C0331]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>visits_2016</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[visits_2016]</local-name>
+            <parent-name>[data-1761543493794.csv]</parent-name>
+            <remote-alias>visits_2016</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data-1761543493794.csv_3505F0266BDE4B7A8FA8B9FB209C0331]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>visits_pct_change_1718</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[visits_pct_change_1718]</local-name>
+            <parent-name>[data-1761543493794.csv]</parent-name>
+            <remote-alias>visits_pct_change_1718</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data-1761543493794.csv_3505F0266BDE4B7A8FA8B9FB209C0331]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>visits_pct_change_1617</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[visits_pct_change_1617]</local-name>
+            <parent-name>[data-1761543493794.csv]</parent-name>
+            <remote-alias>visits_pct_change_1617</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[data-1761543493794.csv_3505F0266BDE4B7A8FA8B9FB209C0331]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Sum' caption='pos/neg pct change' datatype='integer' name='[Calculation_1321806559091240960]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='IF [visits_pct_change_1617] &gt; 0 THEN 1 ELSE 0 END' />
+      </column>
+      <column caption='data-1761543493794.csv' datatype='table' name='[__tableau_internal_object_id__].[data-1761543493794.csv_3505F0266BDE4B7A8FA8B9FB209C0331]' role='measure' type='quantitative' />
+      <column caption='Stabr' datatype='string' name='[stabr]' role='dimension' type='nominal' />
+      <column caption='Visits 2016' datatype='integer' default-format='n#,##0,,.00M;-#,##0,,.00M' name='[visits_2016]' role='measure' type='quantitative' />
+      <column caption='Visits 2017' datatype='integer' default-format='n#,##0,,.00M;-#,##0,,.00M' name='[visits_2017]' role='measure' type='quantitative' />
+      <column caption='Visits 2018' datatype='integer' name='[visits_2018]' role='measure' type='quantitative' />
+      <column caption='Visits Pct Change 1617' datatype='real' default-format='p0.00%' name='[visits_pct_change_1617]' role='measure' type='quantitative' />
+      <column caption='Visits Pct Change 1718' datatype='real' name='[visits_pct_change_1718]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/jingn/AppData/Local/Temp/TableauTemp/#TableauTemp_1jwtc5j0covm2c18x2s6q03is68x.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/27/2025 05:39:20 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>stabr</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[stabr]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>stabr</remote-alias>
+              <ordinal>0</ordinal>
+              <family>data-1761543493794.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>53</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[data-1761543493794.csv_3505F0266BDE4B7A8FA8B9FB209C0331]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>visits_2018</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[visits_2018]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>visits_2018</remote-alias>
+              <ordinal>1</ordinal>
+              <family>data-1761543493794.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>53</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[data-1761543493794.csv_3505F0266BDE4B7A8FA8B9FB209C0331]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>visits_2017</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[visits_2017]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>visits_2017</remote-alias>
+              <ordinal>2</ordinal>
+              <family>data-1761543493794.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>53</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[data-1761543493794.csv_3505F0266BDE4B7A8FA8B9FB209C0331]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>visits_2016</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[visits_2016]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>visits_2016</remote-alias>
+              <ordinal>3</ordinal>
+              <family>data-1761543493794.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>53</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[data-1761543493794.csv_3505F0266BDE4B7A8FA8B9FB209C0331]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>visits_pct_change_1718</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[visits_pct_change_1718]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>visits_pct_change_1718</remote-alias>
+              <ordinal>4</ordinal>
+              <family>data-1761543493794.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[data-1761543493794.csv_3505F0266BDE4B7A8FA8B9FB209C0331]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>visits_pct_change_1617</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[visits_pct_change_1617]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>visits_pct_change_1617</remote-alias>
+              <ordinal>5</ordinal>
+              <family>data-1761543493794.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[data-1761543493794.csv_3505F0266BDE4B7A8FA8B9FB209C0331]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;South Korea&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='data-1761543493794.csv' id='data-1761543493794.csv_3505F0266BDE4B7A8FA8B9FB209C0331'>
+            <properties context=''>
+              <relation connection='textscan.12s8qel1yy9xpt13hl7vu0ltvrci' name='data-1761543493794.csv' table='[data-1761543493794#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_SG' separator=','>
+                  <column datatype='string' name='stabr' ordinal='0' />
+                  <column datatype='integer' name='visits_2018' ordinal='1' />
+                  <column datatype='integer' name='visits_2017' ordinal='2' />
+                  <column datatype='integer' name='visits_2016' ordinal='3' />
+                  <column datatype='real' name='visits_pct_change_1718' ordinal='4' />
+                  <column datatype='real' name='visits_pct_change_1617' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data-1761543493794' name='federated.1pqzj470rdvzw318tf3qu1crrn54' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1pqzj470rdvzw318tf3qu1crrn54'>
+            <column aggregation='Sum' caption='pos/neg pct change' datatype='integer' name='[Calculation_1321806559091240960]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='IF [visits_pct_change_1617] &gt; 0 THEN 1 ELSE 0 END' />
+            </column>
+            <column-instance column='[Calculation_1321806559091240960]' derivation='None' name='[none:Calculation_1321806559091240960:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[stabr]' derivation='None' name='[none:stabr:nk]' pivot='key' type='nominal' />
+            <column caption='Stabr' datatype='string' name='[stabr]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1321806559091240960]' derivation='Sum' name='[sum:Calculation_1321806559091240960:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[visits_2016]' derivation='Sum' name='[sum:visits_2016:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[visits_2017]' derivation='Sum' name='[sum:visits_2017:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[visits_pct_change_1617]' derivation='Sum' name='[sum:visits_pct_change_1617:qk]' pivot='key' type='quantitative' />
+            <column caption='Visits 2016' datatype='integer' default-format='n#,##0,,.00M;-#,##0,,.00M' name='[visits_2016]' role='measure' type='quantitative' />
+            <column caption='Visits 2017' datatype='integer' default-format='n#,##0,,.00M;-#,##0,,.00M' name='[visits_2017]' role='measure' type='quantitative' />
+            <column caption='Visits Pct Change 1617' datatype='real' default-format='p0.00%' name='[visits_pct_change_1617]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.1pqzj470rdvzw318tf3qu1crrn54].[none:Calculation_1321806559091240960:ok]' direction='ASC'>
+            <dictionary>
+              <bucket>1</bucket>
+              <bucket>0</bucket>
+            </dictionary>
+          </manual-sort>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1pqzj470rdvzw318tf3qu1crrn54].[none:stabr:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1pqzj470rdvzw318tf3qu1crrn54].[sum:visits_2016:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1pqzj470rdvzw318tf3qu1crrn54].[sum:visits_pct_change_1617:qk]' field-type='quantitative' major-origin='0.0' major-spacing='0.05' max='0.17085630978089172' min='-0.18085630978089165' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-orientation' value='0' />
+            <format attr='font-family' value='Trebuchet MS' />
+            <format attr='font-size' value='8' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' value='0' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1pqzj470rdvzw318tf3qu1crrn54].[sum:visits_pct_change_1617:qk]' palette='red_green_diverging_10_0' type='interpolated' />
+            <encoding attr='color' field='[federated.1pqzj470rdvzw318tf3qu1crrn54].[sum:Calculation_1321806559091240960:qk]' num-steps='2' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#e15759</color>
+                <color>#df6d6f</color>
+                <color>#de8384</color>
+                <color>#dd999a</color>
+                <color>#dbaeaf</color>
+                <color>#dac4c4</color>
+                <color>#d9d9d9</color>
+                <color>#c0cfbe</color>
+                <color>#a8c6a4</color>
+                <color>#92bd8c</color>
+                <color>#7eb376</color>
+                <color>#6aaa62</color>
+                <color>#59a14f</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true' fontsize='12'><![CDATA[<[federated.1pqzj470rdvzw318tf3qu1crrn54].[none:stabr:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Visits 2016:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1pqzj470rdvzw318tf3qu1crrn54].[sum:visits_2016:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Visits 2017:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1pqzj470rdvzw318tf3qu1crrn54].[sum:visits_2017:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Visits Pct Change 1617:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1pqzj470rdvzw318tf3qu1crrn54].[sum:visits_pct_change_1617:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.7999999523162842' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1pqzj470rdvzw318tf3qu1crrn54].[sum:visits_2016:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true' fontsize='12'><![CDATA[<[federated.1pqzj470rdvzw318tf3qu1crrn54].[none:stabr:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Visits 2016:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1pqzj470rdvzw318tf3qu1crrn54].[sum:visits_2016:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Visits 2017:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1pqzj470rdvzw318tf3qu1crrn54].[sum:visits_2017:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Visits Pct Change 1617:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1pqzj470rdvzw318tf3qu1crrn54].[sum:visits_pct_change_1617:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='8' />
+                <format attr='font-family' value='Trebuchet MS' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='0.66966849565505981' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1pqzj470rdvzw318tf3qu1crrn54].[sum:visits_pct_change_1617:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1pqzj470rdvzw318tf3qu1crrn54].[sum:Calculation_1321806559091240960:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true' fontsize='12'><![CDATA[<[federated.1pqzj470rdvzw318tf3qu1crrn54].[none:stabr:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Visits 2016:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1pqzj470rdvzw318tf3qu1crrn54].[sum:visits_2016:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Visits 2017:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1pqzj470rdvzw318tf3qu1crrn54].[sum:visits_2017:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Visits Pct Change 1617:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1pqzj470rdvzw318tf3qu1crrn54].[sum:visits_pct_change_1617:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.66966849565505981' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1pqzj470rdvzw318tf3qu1crrn54].[sum:visits_2017:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true' fontsize='12'><![CDATA[<[federated.1pqzj470rdvzw318tf3qu1crrn54].[none:stabr:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Visits 2016:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1pqzj470rdvzw318tf3qu1crrn54].[sum:visits_2016:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Visits 2017:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1pqzj470rdvzw318tf3qu1crrn54].[sum:visits_2017:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Visits Pct Change 1617:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1pqzj470rdvzw318tf3qu1crrn54].[sum:visits_pct_change_1617:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.66966849565505981' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1pqzj470rdvzw318tf3qu1crrn54].[sum:visits_2016:qk] + ([federated.1pqzj470rdvzw318tf3qu1crrn54].[sum:visits_2017:qk] + [federated.1pqzj470rdvzw318tf3qu1crrn54].[sum:visits_pct_change_1617:qk]))</rows>
+        <cols>([federated.1pqzj470rdvzw318tf3qu1crrn54].[none:Calculation_1321806559091240960:ok] / [federated.1pqzj470rdvzw318tf3qu1crrn54].[none:stabr:nk])</cols>
+      </table>
+      <simple-id uuid='{AB4731B7-50F0-497C-81D1-8BA20F9ADECC}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='2' param='[federated.1pqzj470rdvzw318tf3qu1crrn54].[sum:Calculation_1321806559091240960:qk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1pqzj470rdvzw318tf3qu1crrn54].[none:Calculation_1321806559091240960:ok]</field>
+            <field>[federated.1pqzj470rdvzw318tf3qu1crrn54].[sum:Calculation_1321806559091240960:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{AB7B7EEC-487C-4501-8A51-8F345BB12C33}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      t7vo99T/B5EaInZp2TNHAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
